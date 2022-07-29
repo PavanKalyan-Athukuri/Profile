@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,300&family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@media(min-width:500px) and (max-width:799px){
+    .navbar{
+        background-color: aqua;
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .menu li{
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .navbar .max-width{
+        text-align: center;
+    }
+
+}
+    @media(min-width: 800px){
+    .navbar{
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Times New Roman',sans-serif;}
+}
+    @media(min-width: 800px){
+    .navbar .logo a{
+    font-size: 35px;
+    font-weight: 500;}
+}
+    @media(min-width: 800px){
+    .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;}
+}
+    @media(min-width: 800px){
+    .navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+}
+    @media(min-width: 800px){
+    .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;}
+}
+.home{
+    display: flex;
+    background: url("./Image.jpg") no-repeat right/300px;
+    /*background-size: auto;*/
+    height: 50vh; 
+    padding:15px;
+    min-height: 200;
+    margin-right: 100px;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .max-width .home-content .text-1{
+    font-size: 25px;
+}
+.home .max-width .home-content .text-2{
+    font-size: 40px;
+    font-weight: 500px;
+}
+.home .max-width .home-content .text-3{
+    font-size: 25px;
+}
+.about .about_me{
+    align-content: center;
+    text-align: center;
+}
+.about{
+    display:grid;
+    flex-direction: row;
+    width: 100%;
+    grid-template-columns: 35% 65%;
+    grid-template-areas: 
+    "Grid_Container-1 Grid_Container-1"
+    "Grid_Container-2 Grid_Container-3"
+    "Grid_Container-4 Grid_Container-5";
+    justify-content: center;
+    height: 100%;
+}
+.Grid_Container-1{
+    grid-area: Grid_Container-1;
+    text-align: center;
+    padding: 15px;
+    border: 0.2px solid black;
+}
+.Grid_Container-2 {
+    grid-area: Grid_Container-2;
+    text-align: center;
+    padding: 10px;
+}
+.about .Grid_Container-3{
+    grid-area: Grid_Container-3;
+    text-align: center;
+    font: 250 30px sans-serif;
+    Padding: 35px;
+}
+.about .Grid_Container-4{
+    grid-area: Grid_Container-4;
+    text-align: center;
+    padding: 5px;
+}
+.about .Grid_Container-5{
+    grid-area: Grid_Container-5;
+    text-align: center;
+    font: 250 30px sans-serif;
+    Padding: 35px;
+}
+.projects{
+    display: grid;
+    width: 100%;
+    flex-direction: row;
+    grid-template-columns: 35% 65%;
+    grid-template-areas: 
+    "project-title project-title"
+    "project-1 project-1-content"
+    "project-2 project-2-content"
+    "project-3 project-3-content"
+    "project-4 project-4-content";
+    height: 100%;
+    grid-gap: 5px;
+    justify-content: center;
+}
+.project-title{
+    grid-area: project-title;
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 15px;
+}
+.project-1{
+    grid-area: project-1;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-2{
+    grid-area: project-2;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-3{
+    grid-area: project-3;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-4{
+    grid-area:project-4;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-1-content{
+    font: 150 20px "Times New Roman";
+}
+.project-2-content{
+    font: 150 20px "Times New Roman";
+}
+.project-3-content{
+    font: 150 20px "Times New Roman";
+}
+.project-4-content{
+    font: 150 20px "Times New Roman";
+}
+.project-3-content span{
+    text-decoration: underline;
+}
+.project-1-content span{
+    font-style: italic;
+}
+.head{
+    text-align: center;
+    border: 0.2px solid black;
+    padding: 15px;
+}
+.skills .skill li{
+   display: inline-block;
+   list-style: none;
+   font-size: 20px;
+   margin-left: 20px;
+}
+.skill{
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    background-color: azure;
+}
+.footer img{
+    height:50px;
+}
+.footer{
+    text-align: center;
+}
+.cont{
+    text-align: center;
+}
