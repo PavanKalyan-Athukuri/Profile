@@ -1,0 +1,45 @@
+.project-1-content{
+    font: 150 20px "Times New Roman";
+}
+.project-2-content{
+    font: 150 20px "Times New Roman";
+}
+.project-3-content{
+    font: 150 20px "Times New Roman";
+}
+.project-4-content{
+    font: 150 20px "Times New Roman";
+}
+.project-3-content u{
+    text-decoration: underline;
+}
+.project-title{
+    grid-area: project-title;
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 15px;
+}
+.project-1{
+    grid-area: project-1;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-2{
+    grid-area: project-2;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-3{
+    grid-area: project-3;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}
+.project-4{
+    grid-area:project-4;
+    text-align: center;
+    padding: 15px;
+    font: 150 30px "Times New Roman";
+}

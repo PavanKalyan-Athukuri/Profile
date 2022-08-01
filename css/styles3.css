@@ -1,0 +1,28 @@
+.Grid_Container-1{
+    grid-area: Grid_Container-1;
+    text-align: center;
+    padding: 15px;
+    border: 0.2px solid black;
+}
+.Grid_Container-2 {
+    grid-area: Grid_Container-2;
+    text-align: center;
+    padding: 10px;
+}
+.Grid_Container-3{
+    grid-area: Grid_Container-3;
+    text-align: center;
+    font: 250 30px sans-serif;
+    Padding: 35px;
+}
+.Grid_Container-4{
+    grid-area: Grid_Container-4;
+    text-align: center;
+    padding: 5px;
+}
+.Grid_Container-5{
+    grid-area: Grid_Container-5;
+    text-align: center;
+    font: 250 30px sans-serif;
+    Padding: 35px;
+}
