@@ -10,7 +10,7 @@
 @media(min-width:500px) and (max-width:799px){
     .navbar{
         background-color: aqua;
-        position: fixed;
+       /* position: fixed;*/
         width: 100%;
     }
     .navbar .menu li{
@@ -25,7 +25,7 @@
     @media(min-width: 800px){
     .navbar{
     display: block;
-    position: fixed;
+   /* position: fixed;*/
     background-color: aqua;
     width: 100%;
     padding: 15px 0;
@@ -57,15 +57,21 @@
 }
 @media(min-width:800px){
     .home{
-        display: grid;
-        grid-template-columns: 60% 40%;
-        flex-direction: row;
-        grid-template-areas: 
-        "col1 col2";
-        clear: top;
+    display:grid;
+    flex-direction: row;
+    width: 100%;
+    grid-template-columns: 65% 35%;
+    grid-template-areas: 
+    "col1 col1"
+    "col2 col2";
+   
     }
-    .home-content{
+    .col1{
         grid-area: col1;
+        border: 0.2px solid black;
+    }
+    .col2{
+        grid-area: col2;
     }
 }
 @media(min-width:500px) and (max-width:799px){
