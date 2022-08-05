@@ -1,13 +1,17 @@
 .project-1-content{
+    grid-area: project-1-content;
     font: 150 20px "Times New Roman";
 }
 .project-2-content{
+    grid-area: project-2-content;
     font: 150 20px "Times New Roman";
 }
 .project-3-content{
+    grid-area: project-3-content;
     font: 150 20px "Times New Roman";
 }
 .project-4-content{
+    grid-area: project-4-content;
     font: 150 20px "Times New Roman";
 }
 .project-3-content u{

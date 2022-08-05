@@ -101,6 +101,7 @@
     align-content: center;
     text-align: center;
 }
+@media(min-width:800px){
 .about{
     display:grid;
     flex-direction: row;
@@ -113,6 +114,8 @@
     justify-content: center;
     height: 100%;
 }
+}
+@media(min-width:800px){
 .projects{
     display: grid;
     width: 100%;
@@ -127,6 +130,23 @@
     height: 100%;
     grid-gap: 5px;
     justify-content: center;
+}
+}
+@media(min-width:400px)and (max-width:799px){
+.projects{
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    grid-template-areas: 
+    "project-title project-title"
+    "project-1 project-1-content"
+    "project-2 project-2-content"
+    "project-3 project-3-content"
+    "project-4 project-4-content";
+    height: 100%;
+    grid-gap: 5px;
+    justify-content: center;
+}
 }
 .head{
     text-align: center;
