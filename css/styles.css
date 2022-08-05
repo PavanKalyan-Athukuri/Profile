@@ -159,11 +159,13 @@
    font-size: 20px;
    margin-left: 20px;
 }
+@media(min-width:800px){
 .skill{
     display: flex;
     padding: 15px;
     width: 100%;
     background-color: azure;
+}
 }
 .footer img{
     height:50px;
